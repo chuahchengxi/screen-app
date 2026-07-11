@@ -11,9 +11,14 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color.blue
-            Text("chengxi")
-                .font(.largeTitle)
-                .foregroundStyle(.white)
+            VStack {
+                Text("chengxi")
+                    .font(.largeTitle)
+                    .foregroundStyle(.white)
+                Text("jinwen")
+                    .font(.largeTitle)
+                    .foregroundStyle(.white)
+            }
         }
         .ignoresSafeArea()
     }
